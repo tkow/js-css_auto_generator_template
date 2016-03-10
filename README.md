@@ -11,16 +11,18 @@ SimpleHTTPServer(python2) or http.server(python3) modules.
 Make your directory includes for_js_test.html and template.py ,
 your js-files in js/control directory,your css-files in styles,
 and run 
-
+```shell
 python template.py > your_index.html
-
+```
 js and css files are searched for hierarchical directories' path recursivey
 
 and  to watch page for mac,for example with browser application,
 
-*open -a "/Applications/Safari.app" your_index.html  
-*open -a "/Applications/Firefox.app" your_index.html  
-*open -a "/Applications/Google Chrome.app" your_index.html  
+```shell
+open -a "/Applications/Safari.app" your_index.html  
+open -a "/Applications/Firefox.app" your_index.html  
+open -a "/Applications/Google Chrome.app" your_index.html  
+```
 
 or other way like localhost web server starting.
 
