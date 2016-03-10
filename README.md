@@ -3,8 +3,7 @@ This script genarates html template simply and speedy
 If you want to test trivial code of js/css/html application,
 but not so much as to make framework environment,
 with no framework except jinja2 and standard python modules,
-it enable you to make a trial easiliy with browser only or with  
-SimpleHTTPServer(python2) or http.server(python3) modules.
+it enable you to make a trial easiliy with browser only or with SimpleHTTPServer(python2) or http.server(python3) modules.
 
 ##Usage
 
