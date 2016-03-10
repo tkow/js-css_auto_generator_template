@@ -1,0 +1,8 @@
+<html>
+  {% for i in js_path -%}
+  <script type="text/javascript" src="{{ i }}"></script>
+  {% endfor -%}
+  {% for i in css_path -%}
+  <link rel="stylesheet" href="{{ i }}"></script>
+  {% endfor -%}
+</html>
